@@ -30,3 +30,14 @@ function calculateTax(income: number) : number {
     }
     return income * 1.3;
 }
+
+
+let phone = <HTMLInputElement>document.getElementById('phone');
+let phone2 = document.getElementById('phone') as HTMLInputElement;
+
+function processEvents() : never {
+    while(true) {}
+}
+
+processEvents();
+console.log('Done');
